@@ -8,9 +8,10 @@ function App() {
   const handleClick = () => {
     setCount(count + 1)
   }
+  // repeted render korte bada dei 
   const getdata = useMemo(() => {
     console.log("useMemo Called")
-  }, [count])
+  }, [count]) 
   return (
     <div>
       <h1>My Value: {count}</h1>

@@ -3,7 +3,7 @@ import { memo } from 'react'
 
 
 function ChildA() {
-    conslole.log("ChildA Called")
+    console.log("ChildA Called")
   return (
     <div>
         child A
